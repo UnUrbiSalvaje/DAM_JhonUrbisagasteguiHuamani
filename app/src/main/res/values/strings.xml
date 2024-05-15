@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DAM_JhonUrbisagasteguiHuamani</string>
+    <string name="buttonSistemas">Ingeniería de Sistemas</string>
+    <string name="buttonAmbiental">Ingeniería Ambiental</string>
+    <string name="buttonMecanica">Ingeniería Mecánica</string>
+    <string name="buttonAdministracion">Administración</string>
+</resources>
