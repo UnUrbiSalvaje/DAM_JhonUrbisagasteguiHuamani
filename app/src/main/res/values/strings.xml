@@ -4,4 +4,17 @@
     <string name="buttonAmbiental">Ingeniería Ambiental</string>
     <string name="buttonMecanica">Ingeniería Mecánica</string>
     <string name="buttonAdministracion">Administración</string>
+    <string name="checkboxRadio">Radio</string>
+    <string name="checkboxInternet">Internet</string>
+    <string name="checkboxAmigo">Amigo</string>
+    <string name="checkboxPublicidad">Publicidad</string>
+    <string name="buttonEnviar">Enviar</string>
+    <string name="textviewForm">Examen de Admisión 2024:</string>
+    <string name="textviewComent">Formulario de Registro</string>
+    <string name="textviewApellido">Apellidos y Nombres :</string>
+    <string name="textviewCorreo">Correo Electrónico:</string>
+    <string name="textviewClave">Clave:</string>
+    <string name="textviewFecha">Fecha de Nacimiento:</string>
+    <string name="textviewCarrera">Carrera:</string>
+    <string name="textviewPregunta">¿Por qué medio se enteró de la convocatoria?</string>
 </resources>
