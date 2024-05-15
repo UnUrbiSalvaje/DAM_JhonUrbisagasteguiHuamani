@@ -17,4 +17,5 @@
     <string name="textviewFecha">Fecha de Nacimiento:</string>
     <string name="textviewCarrera">Carrera:</string>
     <string name="textviewPregunta">¿Por qué medio se enteró de la convocatoria?</string>
+    <string name="textviewButton">Texto_view</string>
 </resources>

@@ -22,7 +22,7 @@
         android:id="@+id/textViewApellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/textviewApellido"
         app:layout_constraintStart_toStartOf="@+id/textViewComent"
         app:layout_constraintTop_toBottomOf="@+id/textViewComent" />
@@ -31,7 +31,7 @@
         android:id="@+id/textViewCorreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/textviewCorreo"
         app:layout_constraintStart_toStartOf="@+id/textViewApellido"
         app:layout_constraintTop_toBottomOf="@+id/textViewApellido" />
@@ -40,7 +40,7 @@
         android:id="@+id/textViewClave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/textviewClave"
         app:layout_constraintStart_toStartOf="@+id/textViewCorreo"
         app:layout_constraintTop_toBottomOf="@+id/textViewCorreo" />
@@ -49,7 +49,7 @@
         android:id="@+id/textViewFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/textviewFecha"
         app:layout_constraintStart_toStartOf="@+id/textViewClave"
         app:layout_constraintTop_toBottomOf="@+id/textViewClave" />
@@ -58,7 +58,7 @@
         android:id="@+id/textViewCarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/textviewCarrera"
         app:layout_constraintStart_toStartOf="@+id/textViewFecha"
         app:layout_constraintTop_toBottomOf="@+id/textViewFecha" />
@@ -78,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:text="@string/textviewComent"
+        android:textColor="#3F51B5"
         app:layout_constraintStart_toStartOf="@+id/textViewForm"
         app:layout_constraintTop_toBottomOf="@+id/textViewForm" />
 
@@ -168,6 +169,7 @@
         android:id="@+id/checkBoxInternet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:text="@string/checkboxInternet"
         app:layout_constraintStart_toStartOf="@+id/checkBoxRadio"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxRadio" />
@@ -201,4 +203,14 @@
         app:layout_constraintStart_toEndOf="@+id/checkBoxPublicidad"
         app:layout_constraintTop_toTopOf="@+id/checkBoxPublicidad"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="@string/textviewButton"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonEnviar"
+        app:layout_constraintEnd_toStartOf="@+id/ButtonEnviar"
+        app:layout_constraintTop_toTopOf="@+id/ButtonEnviar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
